@@ -29,7 +29,11 @@ services:
     ports:
       - 5432:5432
     volumes:
+<<<<<<< HEAD
       -./dbdata:/var/lib/postgresql/data
+=======
+      - ./dbdata:/var/lib/postgresql/data
+>>>>>>> origin/main
     env_file:
       - .env
   nginx:
