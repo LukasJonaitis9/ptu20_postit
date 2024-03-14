@@ -27,10 +27,6 @@ SECRET_KEY = 'django-insecure-6w4+00$q3he5mw=ry4+p$3$s9qb5p_9r+h)g*pxt%9cwzvb4s5
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'ptu20.postit']
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/main
 
 # Application definition
 

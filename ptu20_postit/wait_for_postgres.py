@@ -9,19 +9,11 @@ check_interval = os.getenv("POSTGRES_CHECK_INTERVAL", 1)
 
 # duomenų bazės konfigūracija - pagal nutylėjimą turėtų sutapti su Django nustatymais.
 config = {
-<<<<<<< HEAD
-    "dbname": os.getenv("POSTGRES_DB", "ptu20_postit"),
-    "user": os.getenv("POSTGRES_USER", "ptu20"),
-    "password": os.getenv("POSTGRES_PASSWORD", ""),
-    "host": os.getenv("POSTGRES_HOST", "postgres"),
-    "port": os.getenv("POSTGRES_PORT", "5432")
-=======
     "dbname": os.getenv("POSTGRES_DB", "ptu20postit"),
     "user": os.getenv("POSTGRES_USER", "ptu20"),
     "password": os.getenv("POSTGRES_PASSWORD", ""),
     "host": os.getenv("POSTGRES_HOST", "postgres"),
     "port": os.getenv("POSTGRES_PORT", "5432"),
->>>>>>> origin/main
 }
 
 # sukonfigūruojame logerį
